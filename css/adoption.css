@@ -81,7 +81,10 @@ header li a {
 
 body{
 
-background-color:indianred;
+background-image: url(/imgs/background.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
 
 } 
 
@@ -434,7 +437,7 @@ background-image: url(/images/Pomeranian.jpg)
         }
 
    .card:nth-child(9):before {
-      background-image: url(/images/birmanCat.jpg)
+      background-image: url(/images/Birman-Cat.jpg)
           }
     .card:nth-child(10):before {
       background-image: url(/images/britishShortHair.jpg)
