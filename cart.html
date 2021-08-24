@@ -1,56 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cart.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="icon" href="https://fosterarmy.org/wp-content/uploads/2017/09/mission-icon.jpg">
     <title>Cart</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
-        <section>
-            <div>
-               <img src="images/Hope logo.png" alt="logo">
-            </div>  
-
-               <div>
-                <button>Sign in</button>
-                <ul>
-                    <li><a href="#"> <img src="/images/fb.PNG" alt="fb"> </a></li>
-                    <li><a href="#"> <img src="/images/insta.PNG" alt="insta"></a></li>
-                    <li><a href=""> <img src="/images/G.PNG" alt="google"> </a></li>
-                    <li><a href=""> <img src="/images/P.PNG" alt="p"> </a></li>
-                </ul>
-               </div>
-
-        </section>
-
-        <section>
-            <ul>
-                <li><a href="category.html"> Adopting </a></li>
-                <li><a href="category2.html"> Pet Info </a></li>
-                <li><a href="aboutUs.html"> About us</a></li>
-            </ul>
-        </section>
-
       
+      <div class="header">
+       <button><a href="index.html">home</a></button>
+        <!--Content before waves-->
+        <div class="inner-header flex">
+          <!--Just the logo.. Don't mind this-->
+          <svg
+            version="1.1"
+            class="logo"
+            baseProfile="tiny"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+          >
+            <path
+              fill="#FFFFFF"
+              stroke="#000000"
+              stroke-width="5"
+              stroke-miterlimit="5"
+              d="M57,283"
+            />
+          </svg>
+          <h1>You can change their lives with your adoption</h1>
+        </div>
+        <p id="intro2">
+          all these animals are looking forward to have a new life in a new home
+          along with <br />
+          you and be a part of your lovely family
+        </p>
+
+        <!--Waves Container-->
+        <div>
+          <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g class="parallax">
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.7"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(255,255,255,0.5)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+          </svg>
+        </div>
+        <!--Waves end-->
+      </div>
     </header>
 
     <main>
+      <table id="contain">
+        <tr>
+          <th>pet name</th>
+          <th>pet image</th>
+          <th>remove</th>
+        </tr>
+      </table>
 
-        <div id="contain"></div>
-
-        <button id="showList">show list</button>
-
+      <button id="showList">show list</button>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <script src="/js/app.js"></script>
-    <!-- <script src="/js/two.js"></script> -->
-</body>
+    <script src="/js/two.js"></script>
+  </body>
 </html>
