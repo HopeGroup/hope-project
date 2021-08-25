@@ -4,7 +4,7 @@ header img {
 
   height: 80px;
 
-  margin-left: 40px;
+  margin-left: 60px;
 
 }
 header * {
@@ -31,7 +31,7 @@ header li a {
 
   position: relative;
 
- left: 450px;
+ left: 350px;
 
 }
  header{
@@ -47,7 +47,7 @@ padding-bottom: 15px;
 
 header > nav > ul > li > a{
     color: black;
-    padding-right: 35px;
+    padding-right: 30px;
     
     } 
 
