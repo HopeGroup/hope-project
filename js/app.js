@@ -13,7 +13,7 @@ function CardConst(catName, catImg) {
 function makeorder(event) {
   event.preventDefault();
   let catName = event.target.childNodes[1].innerText;
-  let catPath = `./images/${catName}.jpg`
+  let catPath = `./../images/${catName}.jpg`
   console.log(catName, catPath);
   new CardConst(catName, catPath);
   saveToLocalStorage();
