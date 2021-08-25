@@ -80,7 +80,7 @@ header li a {
 }
 body{
  
-  background-image: url(/imgs/background.jpg);
+  background-image: url(./../imgs/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -199,23 +199,23 @@ transform: translateY(-50%);
 transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-background-image: url(/images/Birman-Cat.jpg);
+background-image: url(./../images/Birman-Cat.jpg);
 }
 .card:nth-child(2):before {
-background-image: url(/images/britishShortHair.jpg);
+background-image: url(./../images/britishShortHair.jpg);
 }
 .card:nth-child(3):before {
-background-image: url(/images/MunchkinCat.jpg);
+background-image: url(./../images/MunchkinCat.jpg);
 }
 .card:nth-child(4):before {
-background-image: url(/images/Exotic-Shorthair.jpg)
+background-image: url(./../images/Exotic-Shorthair.jpg)
 }
 .card:nth-child(5):before {
-  background-image: url(/images/persianSolid.jpg)
+  background-image: url(./../images/persianSolid.jpg)
   }
 
   .card:nth-child(6):before {
-    background-image: url(/images/RagDoll.jpg)
+    background-image: url(./../images/RagDoll.jpg)
     }
 
 

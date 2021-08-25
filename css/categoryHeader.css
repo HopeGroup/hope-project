@@ -36,7 +36,7 @@ header li a {
 }
 
 body {
-  background-image: url(background.jpg);
+  background-image: url(./../background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -63,7 +63,7 @@ header {
 
 body{
  
-  background-image: url(/imgs/background.jpg);
+  background-image: url(./../imgs/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   /* background-attachment: fixed; */

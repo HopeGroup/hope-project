@@ -165,30 +165,30 @@ transition: transform calc(var(--d) * 2) var(--e);
 
 
     .card:nth-child(1):before {
-        background-image: url(images/Golden-Retriever.jpg);
+        background-image: url(./../images/Golden-Retriever.jpg);
         }
         .card:nth-child(2):before {
-        background-image: url(images/Cuddlly-Poodle.jpg);
+        background-image: url(./../images/Cuddlly-Poodle.jpg);
         }
         .card:nth-child(3):before {
-        background-image: url(images/Shiba-Inu.jpg);
+        background-image: url(./../images/Shiba-Inu.jpg);
         }
         .card:nth-child(4):before {
-        background-image: url(images/Pomeranian.jpg)
+        background-image: url(./../images/Pomeranian.jpg)
         }
         .card:nth-child(5):before {
-          background-image: url(images/Siberian-Hasky.png)
+          background-image: url(./../images/Siberian-Hasky.png)
           }
         
           .card:nth-child(6):before {
-            background-image: url(images/German.Shepherd.jpg)
+            background-image: url(./../images/German.Shepherd.jpg)
             }
         
          .card:nth-child(7):before {
-              background-image: url(images/Rottweiler.jpg)
+              background-image: url(./../images/Rottweiler.jpg)
               }
            .card:nth-child(8):before {
-                background-image: url(images/chow.png)
+                background-image: url(./../images/chow.png)
                 }
 
 

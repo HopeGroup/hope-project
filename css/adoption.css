@@ -68,7 +68,7 @@ header li a {
 
 body{
 
-background-image: url(/imgs/background.jpg);
+background-image: url(./../imgs/background.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;
@@ -399,46 +399,46 @@ transition: transform calc(var(--d) * 2) var(--e);
 background-image: url(./../images/Golda-Puppy.jpg);
 }
 .card:nth-child(2):before {
-background-image: url(/images/Cuddlly-Poodle.jpg);
+background-image: url(./../images/Cuddlly-Poodle.jpg);
 }
 .card:nth-child(3):before {
-background-image: url(/images/Shiba-Inu.jpg);
+background-image: url(./../images/Shiba-Inu.jpg);
 }
 .card:nth-child(4):before {
-background-image: url(/images/Pomeranian.jpg)
+background-image: url(./../images/Pomeranian.jpg)
 }
 .card:nth-child(5):before {
-  background-image: url(/images/Siberian-Hasky.png)
+  background-image: url(./../images/Siberian-Hasky.png)
   }
 
   .card:nth-child(6):before {
-    background-image: url(/images/German-Shepherd.jpg)
+    background-image: url(./../images/German-Shepherd.jpg)
     }
 
  .card:nth-child(7):before {
-      background-image: url(/images/Rottweiler.jpg)
+      background-image: url(./../images/Rottweiler.jpg)
       }
    .card:nth-child(8):before {
-      background-image: url(/images/Chow-chow.png)
+      background-image: url(./../images/Chow-chow.png)
         }
 
    .card:nth-child(9):before {
-      background-image: url(/images/Birman-Cat.jpg)
+      background-image: url(./../images/Birman-Cat.jpg)
           }
     .card:nth-child(10):before {
-      background-image: url(/images/britishShortHair.jpg)
+      background-image: url(./../images/britishShortHair.jpg)
             }
     .card:nth-child(11):before {
-              background-image: url(/images/Exotic-Shorthair.jpg)
+              background-image: url(./../images/Exotic-Shorthair.jpg)
               }
     .card:nth-child(12):before {
-                background-image: url(/images/MunchkinCat.jpg)
+                background-image: url(./../images/MunchkinCat.jpg)
                 }
     .card:nth-child(13):before {
-                  background-image: url(/images/persianSolid.jpg)
+                  background-image: url(./../images/persianSolid.jpg)
                   }
     .card:nth-child(14):before {
-                    background-image: url(/images/RagDoll.jpg)
+                    background-image: url(./../images/RagDoll.jpg)
                     }
 
 
