@@ -129,8 +129,9 @@ section img #catNdogo{
     position: relative;
     padding: 96px;
     font-family: 'Acme', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
+
 
 .sec h2{
     
@@ -204,6 +205,10 @@ section img #catNdogo{
   font-family: 'Acme', sans-serif;
 }
 
+#goToAdopt > a{
+    text-decoration: none;
+    color: black;
+}
 #goToAdopt:hover{
   background-color: #22b5e6;
   transition: background-color .2s;

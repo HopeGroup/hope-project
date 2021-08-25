@@ -78,9 +78,14 @@ header li a {
    left: 450px;
 
 }
- body{
-background-color:indianred;
-} 
+body{
+ 
+  background-image: url(/imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+   
+  }
  #FirstHeader{
     font-family: "Libre Baskerville",Verdana,Arial,sans-serif;
     text-align: center;
@@ -194,7 +199,7 @@ transform: translateY(-50%);
 transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-background-image: url(/images/birmanCat.jpg);
+background-image: url(/images/Birman-Cat.jpg);
 }
 .card:nth-child(2):before {
 background-image: url(/images/britishShortHair.jpg);
@@ -298,7 +303,7 @@ transition-duration: 0s;
 /* foteer */
 
 footer{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 105.3%;
     position: relative;
    
@@ -415,6 +420,10 @@ footer{
         color: white;
         padding: 9px 36px;
         display: inline-block;
+      }
+
+      p ,h1,h2{
+        color: black;
       }
     
     
