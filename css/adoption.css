@@ -396,7 +396,7 @@ transform: translateY(-50%);
 transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-background-image: url(/images/Golda-Puppy.jpg);
+background-image: url(./../images/Golda-Puppy.jpg);
 }
 .card:nth-child(2):before {
 background-image: url(/images/Cuddlly-Poodle.jpg);
