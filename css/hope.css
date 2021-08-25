@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Homemade+Apple&display=swap');
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    min-height: 100vh;
+
+    background: linear-gradient(#97d0ff, #EAF5FD);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    
+}
+header .logo{
+    font-family: 'Homemade Apple', cursive;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 4em;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+
+header ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 1.9em;
+    border-radius: 20px;
+}
+
+header ul li a:hover{
+    background: #fff;
+    color: #97d0ff;
+}
+section{
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top, #90cbff,transparent);
+    z-index: 1000;
+}
+
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img #frontText{
+    position: absolute;
+    z-index: 9;
+    
+}
+
+section img #catNdogo{
+    z-index: 11;
+}
+
+#btn{
+    z-index: 10;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 38px;
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    transform: translateY(150px);
+}
+
+#btn:hover{
+    background-color: rgb(75, 75, 75);
+    transition: background-color .2s;
+}
+
+.sec{
+
+    background: #90cbff;
+    position: relative;
+    padding: 96px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.sec h2{
+    
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.sec2 {
+    z-index: 200;
+    background:#90cbff ;
+    float: right;
+    padding-top: 190px;
+    padding-right: 211px;
+    padding-bottom: 78px;
+
+}
+.sec2 #photo{
+    position: relative;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+/* boxes page */
+
+.topImgs{
+
+    background-size: cover;
+    padding: 20px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.container{
+    width: 40%;
+}
+
+.box{
+    width: 1200px;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.text {
+    font-size: 100%;
+    width: 57%;
+    position: relative;
+    float: right;
+    color: black;
+    margin-top: 45px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8em;
+    padding-right: 400px;
+    margin-bottom: 30px;
+}
+
+#goToAdopt{
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: .9em;
+  font-family: 'Acme', sans-serif;
+}
+
+#goToAdopt > a{
+    text-decoration: none;
+    color: black;
+}
+#goToAdopt:hover{
+  background-color: #22b5e6;
+  transition: background-color .2s;
+}
+
+#a, #b, #c {
+    padding: 10px;
+    border: 3px solid rgb(130, 138, 255);
+    background-color: rgb(130, 138, 255);
+    border-radius: 30px;
+}
+
+
+
+
+
+/* footer thingys */
+
+#sectionbackgraond{
+    background-color: #7ecae0;
+}
+
+
+#sectionbackgraond{
+    background-color: #7ecae0;
+}
+h1{
+
+margin-left: 38%;
+position: absolute;
+text-align: center;
+font-size: 250%;
+color: whitesmoke;
+font-family: 'Courgette', cursive;
+
+
+
+}
+#divimg img{
+    width: 600px;
+    right: 500px;
+}
+footer{
+    
+    padding: -20px;
+}
+
+.content > ul > li {
+display: inline-block;
+position: relative;
+left: 500px;
+top: 280px;
+}
+
+.content > ul > li > a{ 
+text-decoration: none;
+font-size: 25px;
+padding-left: 15px;
+color: black;
+}
